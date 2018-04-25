@@ -7,11 +7,11 @@ export class MessageService {
 
   constructor() { }
 
-  add(message: string):void {
+  add(message: string): void {
     this.messages.push(message);
   }
 
-  clear():void {
+  clear(): void {
     this.messages = [];
   }
 }

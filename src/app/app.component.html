@@ -4,6 +4,8 @@
     <a routerLink="/dashboard">Dashboard</a>
     <a routerLink="/heroes">Heroes</a>
   </nav>
+  <input #box type="text" (keyup.enter)="0">
+  {{box.value}}
   <router-outlet></router-outlet>
   <app-messages></app-messages>
 </div>
